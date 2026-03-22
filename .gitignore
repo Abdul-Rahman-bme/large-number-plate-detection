@@ -1,0 +1,38 @@
+# Model weights
+*.pt
+*.onnx
+*.tflite
+*.engine
+
+# Training runs output
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Dataset files (large — keep on Kaggle, not in Git)
+*.jpg
+*.jpeg
+*.png
+*.csv
+*.yaml
+!dataset_template.yaml
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Kaggle credentials
+kaggle.json
